@@ -1,6 +1,6 @@
 # 🧠 Deep Learning Project – CNN vs Vision Transformers
 
----
+
 
 ## 📌 Description du projet
 
@@ -11,7 +11,6 @@ Ce projet a pour objectif de comparer deux approches majeures du deep learning a
 
 L’objectif est d’analyser leurs performances sur différents jeux de données afin de mettre en évidence leurs forces et leurs limites respectives.
 
----
 
 ### 🔬 Étude des comportements
 
@@ -20,7 +19,6 @@ Différents datasets sont construits ou adaptés pour tester les modèles dans d
 - **Reconnaissance de textures** → avantage des CNN grâce aux filtres locaux
 - **Relations globales dans l’image** → avantage des Vision Transformers via l’attention
 
----
 
 ### ⚙️ Pipeline du projet
 
@@ -32,7 +30,7 @@ Le projet inclut :
 - 📈 Analyse qualitative et visualisations
 - 🧠 Interprétation des résultats et comparaison des architectures
 
----
+
 
 ## 🖥️ Environnement et exécution
 
@@ -43,7 +41,7 @@ Le projet est développé sous forme de notebook Jupyter (`.ipynb`) en Python.
 - 💻 **CPU** : tests, debug, validation du pipeline
 - ⚡ **GPU** : entraînement complet des modèles
 
----
+
 
 ### ⚠️ Remarques importantes
 
@@ -51,7 +49,6 @@ Le projet est développé sous forme de notebook Jupyter (`.ipynb`) en Python.
 - Les Vision Transformers sont très coûteux en calcul (attention sur patches)
 - Le GPU est fortement recommandé pour les entraînements complets
 
----
 
 ## 🚀 Exécution du projet
 
@@ -61,6 +58,8 @@ Dans le dossier du projet :
 
 ```bash
 jupyter notebook
+```
+
 
 ### 2️⃣ Ouvrir le notebook
 
@@ -72,6 +71,7 @@ Exécuter cellule par cellule : Shift + Entrée
 Ou exécuter tout le notebook :
 
 Kernel → Restart & Run All
+
 ### 4️⃣ Dépendances nécessaires
 
 Avant exécution, vérifier l’installation des bibliothèques :
